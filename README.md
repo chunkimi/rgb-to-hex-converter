@@ -2,6 +2,9 @@
 
 The RGB to Hex Color Conversion Tool allows users to adjust RGB values through numeric input or sliders to obtain the corresponding HEX color code.
 
+[Live Lemo](https://chunkimi.github.io/rgb-to-hex-converter/)
+![preview](https://raw.githubusercontent.com/chunkimi/rgb-to-hex-converter/refs/heads/main/assets/preview.png)
+
 ## Features
 - **Dual Conversion Methods**: This tool offers two ways to adjust RGB values: numeric input fields and sliders.
 - **Real-Time Color Preview**: When users modify the RGB values, the background color of the display updates instantly to reflect the current color, along with the corresponding HEX code.
@@ -33,13 +36,13 @@ The RGB to Hex Color Conversion Tool allows users to adjust RGB values through n
 1. **Clone the repository:**
    Clone the project repository to your local machine:
    ```bash
-   git clone https://github.com/yourusername/yourproject.git
+   git clone https://github.com/chunkimi/rgb-to-hex-converter.git
    ```
 
 2. **Navigate to the project directory:**
    Change into the project directory:
    ```bash
-   cd yourproject
+   cd rgb-to-hex-converter
    ```
 
 3. **Open the HTML file:**
