@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.web-header {
+    text-align: center;
+    margin-top: 1.25rem;
+}
+
+.container {
+    /*box-model*/
+    padding: 3rem;
+    /*font and other*/
+    background-color: #000000;
+}
+
+.calculator-box-model {
+    /*box-model*/
+    width: 25rem;
+    padding: 0.75rem;
+    margin: 0.75rem;
+    border-radius: 0.75rem;
+    background: #ffffff;
+}
+
+.group-box-model {
+    /*display*/
+    display: inline-block;
+    border: 0;
+}
+
+.basic-input-box {
+    /*box-model*/
+    width: 6.25rem;
+    padding: 0.75rem;
+    margin: 0px 0.75rem;
+    border-radius: 0.75rem;
+    border: 0.5px solid black;
+}
+
+.color-display {
+    /*display*/
+    display: inline-block;
+    vertical-align: middle;
+    /*box-model*/
+    width: 2.75rem;
+    height: 2.5rem;
+    padding: 0.25rem;
+    margin-top: 0.25rem;
+    border-radius: 0.75rem;
+    /*font and other*/
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: 1.25rem;
+}
+
+.selector-label {
+    /*display*/
+    display: inline-block;
+    /*box-model*/
+    width: 2.75rem;
+    height: 2.5rem;
+    padding: 0.25rem;
+    border-radius: 0.75rem;
+    /*font and other*/
+    color: white;
+    font-size: 1.25rem;
+}
+
+.label-red {
+    /*font and other*/
+    background-color: rgb(255, 0, 0);
+}
+
+.label-green {
+    /*font and other*/
+    background-color: rgb(0, 255, 0);
+}
+
+.label-blue {
+    /*font and other*/
+    background-color: rgb(0, 0, 255);
+}
+
+.hex-value-box {
+    /*box-model*/
+    border-radius: 0.75rem;
+    margin-top: 5rem;
+    /*font and other*/
+    font-size: 3rem;
+    background-color: rgb(255, 255, 255, 0.5);
+}
+
+.hex-value {
+    /*display*/
+    display: inline-block;
+    /*box-model*/
+    height: 5rem;
+    padding: 0.25rem;
+    border-radius: 0.75rem;
+    /*font and other*/
+    background-color: rgb(125, 125, 125, 0.5);
+}
